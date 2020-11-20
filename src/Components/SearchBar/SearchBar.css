@@ -1,0 +1,28 @@
+.searchBlock input{
+    width: 641px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 34px;
+    margin: 10px -30px 10px;
+    border-radius: 2px;
+
+}
+
+
+form{
+    position: relative;
+}
+
+.searchIcon{
+
+    position: absolute;
+    right: -29px;
+    top: 1px;
+    background: #e9ecef;
+    height: 34px;
+    width: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

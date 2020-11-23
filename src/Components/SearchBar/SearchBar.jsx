@@ -23,21 +23,21 @@ export default class SearchBar extends Component{
     render(){
         return(
             <Fragment>
-             <section className="customBlockHeader">
-                 <div className="seachBlock">
-                 <article>
+             <section >
+                 
+                 <article >
 
                      <form onSubmit={this.handleSubmit}>
 
-                         <input type="text" className="form-control" placeholder="search" onChange={this.handleChange}/>
-                         <button>
+                         <input type="text" className="form-control" placeholder="search" value={this.state.term} onChange={this.handleChange}/>
+                         
                              <span className="searchIcon">
                              <i class=" fa fa-search" aria-hidden="true"></i>
                              </span>
-                         </button>
+                         
                      </form>
                  </article>
-                 </div>
+                 
              </section>
 
             </Fragment>

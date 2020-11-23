@@ -1,0 +1,50 @@
+.innerBlock img{
+    width: auto;
+    height: 90px;
+}
+
+.innerBlock{
+    display: flex;
+    background: #eee;
+    
+    height: 120px;
+    
+
+}
+
+.innerBlock .video_descriptions{
+    flex-basis: 40%;
+}
+.innerBlock .video_thumbnails{
+    flex-basis: 60%;
+}
+
+.innerBlock h2{
+    font-size: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: bold;
+    columns: #000;
+    width: 250px;
+    
+}
+.video_descriptions p{
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.videoListBlock > div:nth-child(1){
+    border-bottom: 1px solid #ccc; 
+    padding:  0 0 0px;
+    margin: 0px 0px 15px;
+
+}
+
+
+.videoBlock h2{
+    font-size: 18px;
+    padding: 9px 0;
+}

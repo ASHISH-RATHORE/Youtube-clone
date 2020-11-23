@@ -1,0 +1,58 @@
+.rightBlock{
+    display: flex;
+    margin: 0 35px;
+    height: auto;
+}
+
+.rightBlock span{
+    margin: auto 12px;
+}
+
+#right{
+    width: 10px;
+    margin: auto 10px;
+    margin-left: 340px;
+}
+
+.signinBlock{
+    display: flex;
+}
+
+.sign-button{
+    display: flex;
+    height: 43px;
+    width: 120px;
+    font-size: 15px;
+    color: #065fd4;
+    background-color: transparent;
+    margin-left: 0px;
+    border-radius: 6px;
+    justify-content: space-evenly;
+    align-items: baseline;
+    border-color: #065fd4;
+    
+    
+}
+
+.user{
+    font-size: 20x;
+    color: white;
+    width: 25px ;
+    border-radius: 21px;
+    background-color:#065fd4 ;
+    margin-top: 8px;
+    margin-left: -6px;
+
+}
+
+.border{
+    text-decoration: none !important;
+    background-color: transparent !important;
+    border-style: none !important;
+    
+}
+
+.cam{
+    font-size: 21px;
+}
+

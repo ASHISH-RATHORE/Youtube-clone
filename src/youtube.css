@@ -16,3 +16,7 @@ body{
     font-family: "Roboto",arial,sans-serif;
     background: #efefef;
 }
+
+.containerBlock{
+padding: 10px 5%;    
+}

@@ -2,6 +2,7 @@
     background: #fff;
     height: 60px;
     padding: 0 20px;
+    
 
 }
 
@@ -19,14 +20,16 @@
 }
 
  #HeaderBlock .bars{
-    margin: 0 24px 0;
+    margin: 0 24px 0 0;
 }
 .customBlockHeader{
-    height: 60px;
     display: flex;
+    height: 60px;
     align-items: center;
     justify-content: center;
     width: 100%;
+    
+    
 }
 
 .searchBlock{
@@ -34,5 +37,6 @@
     align-items: center;
     display: flex;
     justify-content: center;
+    
 
 }
